@@ -5,7 +5,7 @@
 # Design the fastest algorithm that you can for solving this problem.
 
 # Solution:
-# Using a divide and conquer approach, ere i san O(logn) solution.
+# Using a divide and conquer approach, there is an O(logn) solution.
 
 import math
 

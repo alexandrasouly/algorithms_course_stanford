@@ -1,5 +1,15 @@
-import math
+# Task:
+# Your task is to compute the total number of comparisons used
+# to sort the given input file by QuickSort.
+# As you know, the number of comparisons depends on which elements
+# are chosen as pivots, so we'll ask you to explore three different pivoting rules.
+# For the first part of the programming assignment, you should always use the first
+# element of the array as the pivot element.
+# Next, using the final element of the given array as the pivot element.
+# Finally, consider the first, middle, and final elements of the given array.
+# Compute the number of comparisons using the "median-of-three" pivot rule.
 
+import math
 
 def process_input():
     with open('course1_week2/integers.txt') as f:
